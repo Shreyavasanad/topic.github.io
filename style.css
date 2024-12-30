@@ -1,0 +1,139 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, rgba(205, 203, 203, 0.8), rgba(180, 180, 180, 0.8)), 
+                url('https://source.unsplash.com/1600x900/?education,technology');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 20px;
+   
+}
+
+body main{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+body header h4{
+    padding: 2rem;
+    font-size: 40px;
+}
+
+/* Main Container */
+section {
+    background-color: white;
+    padding: 2rem;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 30px;
+    opacity: 90%;
+}
+
+/* Header */
+header{
+    background-color: #006699;
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header p {
+    margin: 1rem 0 0;
+}
+
+/* Section Titles */
+h2 {
+    color: #254684;
+    margin-bottom: 1rem;
+}
+
+/* List Items */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-items: start;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    background-color: #dcedff;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+/* Links */
+a {
+    color: #131332;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Definition List */
+dl dt {
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+}
+
+dl dd {
+    margin-left: 1.5rem;
+    color: #666;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #4CAF50;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        padding: 1.5rem;
+    }
+
+    header {
+        padding: 1.5rem;
+    }
+}
