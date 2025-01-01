@@ -1,37 +1,49 @@
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  color: #333;
+  font-family: 'Open Sans', sans-serif; /* Using a more modern font */
+  margin: 30px;
+  background-color: #f8f8f8; /* Light gray background */
+  color: #555; /* Text color */
 }
 
 h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  color: #007bff; /* Blue heading color */
+  margin-bottom: 40px;
+  text-align: center; /* Center the main heading */
 }
 
 h2 {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ddd;
 }
 
 p {
-  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 ul {
   list-style-type: disc;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 strong {
   font-weight: bold;
 }
 
-/* Optional: Add a background color for better contrast */
-body {
-  background-color: #f4f4f4;
+/* Add a subtle box shadow to each section */
+.section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
 }
