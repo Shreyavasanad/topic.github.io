@@ -5,27 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Learning Reflections</title>
     <style>
-       body {
+      body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9; 
-    }
- header {
+}
+header {
     background-color: #2c3e50;
     color: white;
     padding: 20px;
     text-align: center;
-      }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        h3 {
-            color: #34495e;
-        }
-        p, li {
-            font-size: 16px;
-        }
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #333; 
+  margin-bottom: 20px;
+  background-color: #e6e6e6; /* Light grey background for title */
+  padding: 10px; /* Add padding for space around title */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+p {
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2980b9; 
+  margin-top: 30px; 
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
         pre {
             background-color: #f4f4f4;
             padding: 10px;
@@ -42,7 +71,9 @@
     <header>
     <h1>Algorithms and Data Structures</h1>
     </header>
-    
+
+    <main>
+        <section id="space">
     <h2>Space and Time Efficiency</h2>
     <p><strong>Importance of Analyzing Algorithmic Complexity</strong></p>
     <p>Analyzing algorithm complexity ensures scalability and efficient handling of larger data. For example, bubble sort has <span class="algorithm-title">O(n²)</span>, while merge sort has <span class="algorithm-title">O(n log n)</span>.</p>
@@ -54,7 +85,9 @@
         <li><strong>O(n)</strong>: Linear time (e.g., iterating through an array)</li>
         <li><strong>O(n²)</strong>: Quadratic time (e.g., bubble sort)</li>
     </ul>
+        </section>
 
+      <section id="sort">   
     <h2>Sorting and Searching</h2>
 
     <h3>Sorting Algorithms</h3>
@@ -158,7 +191,9 @@ int binarySearch(const vector<int>& arr, int key) {
     return -1;
 }
     </pre>
+  </section>
 
+        <section id="graph">      
     <h2>Graph Algorithms</h2>
 
     <h3>Spanning Trees</h3>
@@ -284,20 +319,25 @@ int main() {
     return 0;
 }
     </pre>
-   
-
+     </section>
+        
+<section id="algorithm">
     <h2>Algorithm Design Techniques</h2>
     <ul>
         <li><strong>Divide and Conquer:</strong> Breaks problems into smaller sub-problems, solves them independently, and combines results.</li>
         <li><strong>Greedy Algorithms:</strong> Makes the best choice at each step in the hope of finding the global optimum.</li>
         <li><strong>Dynamic Programming:</strong> Solves problems by storing the results of overlapping subproblems to avoid redundant work.</li>
     </ul>
-
+      </section>
+        
+<section id="reflection">
     <h2>Reflections</h2>
     <p>Learning how to break down complex problems into smaller components allows for better problem-solving and optimization. Balancing optimization with simplicity ensures maintainability while delivering efficient solutions. Adapting solutions across different challenges involves choosing the right algorithm for the problem at hand.</p>
 
          <a href="index.html" style="margin-right: 20px;">Back to Portfolio</a>
           <a href="theory.html">Next page</a>
-
+          </section>
+        
+    </main>
 </body>
 </html>
